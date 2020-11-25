@@ -124,4 +124,42 @@
 
 .testimonialscard{
     font-family: 'Abel', sans-serif;
+    width: 357px;
+    background-color: #f8f8f8;
+}
+.testimonialscard h1{
+    font-size: 50px;
+    color: #000000;
+    margin-top: 45px;
+}
+.testimonialscard h2{
+    font-size: 50px;
+    color: #ff5200;
+}
+.testimonialscard p{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: #9b9b9b;
+}
+
+.testimonialstext{
+    background-color: #ffffff;
+    font-family: 'Abel', sans-serif;
+    height: 318px;
+}
+.testimonialstext p{
+    font-size: 16px;
+    color: #000000;
+}
+.testimonialstext h1{
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.testimonialstext h2{
+    position: absolute;
+    font-size: 14px;
+    bottom: 40px;
+    left: 30px;
+    color: #4a4a4a;
+
 }
