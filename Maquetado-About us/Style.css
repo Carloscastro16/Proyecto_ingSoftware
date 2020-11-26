@@ -20,5 +20,47 @@
         font-size: 80px;
         line-height: 95px;
 }
+.titulos{
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    color: #000000;
+    }
+    .texto{
+        font-family: 'Abel', sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+        color:#4A4A4A;
+    }
+    .parte-tres{
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9B9B9B;
+    }
+    .sub{
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    color: #000000;
+    }
+    .viejito{
+        position: relative;
+        background: url(../Imagenes/video.png);
+        width: 100%;
+        height: 700px;
+        
+    }
+    .objetos{
+        position: absolute;
+        width: 1441px;
+        height: 700px;
+        left: 0px;
+        top: 2852px;
+    }
+    .cartas{
+       margin-bottom: 100px;
+    }
+    
+
 
 
