@@ -1,0 +1,24 @@
+
+.travelsy{
+    position: relative;
+    background: url(../Imagenes/fondo.png);
+    width: 100%;
+    height: 815px;
+    color:#FFFFFF;
+}
+.nav-link{
+    font-family: 'Abel', sans-serif;
+    color:#FFFFFF;
+}
+ .titulo{
+        position: absolute;
+        width: 655px;
+        height: 95px;
+        left: 393px;
+        top: 360px;
+        font-family: 'Abel', sans-serif;
+        font-size: 80px;
+        line-height: 95px;
+}
+
+
