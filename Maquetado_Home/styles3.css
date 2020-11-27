@@ -1,0 +1,114 @@
+@media (min-width: 768px) and (max-width: 991.98px){
+    .imagenesgrandes img{
+        width: 50%;
+    }
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media (min-width: 360px) and (max-width: 500px){
+    .imagenesgrandes img{
+        width: 50%;
+    }
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+.inicio{
+    position: relative;
+    background: url(../Imagenes/carretera.png);
+    width: 100%;
+    height: 815px;
+    font-family: 'Abel', sans-serif;
+    padding-top: 44px;
+}
+.logotravelsy{
+    position: absolute;
+    content: url(../Imagenes/Travelsy.png);
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.inicio h1{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 138px;
+    margin-bottom: 25px;
+}
+.inicio h2{
+    color: #ffffff;
+    font-size: 80px;
+}
+.blancohome{
+    position: absolute;
+    content: url(../Imagenes/Rectanglewhiteabout.png);
+    left: 0;
+    bottom: 0;
+}
+.amun{
+    position: relative;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+    padding-top: 100px;
+}
+.amun h1{
+    color: black;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.amun h2{
+    color: black;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.ovalos{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.ovalos img{
+    margin-right: 10px;
+
+}
+.rocky{
+    position: relative;
+    font-family: 'Abel', sans-serif;
+}
+.rocky h1{
+    color: #9b9b9b;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.rocky h2{
+    color: #000000;
+    font-size: 70px;
+    line-height: 95px;
+    margin-bottom: 60px;
+}
+.rocky p{
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 98px;
+}
+.fondocard{
+    background: url(../Imagenes/ciudad.png);
+    width: 733px;
+    height: 350px;
+}
+.fondocard h5{
+    color: #ffffff;
+    margin-top: 260px;
+    font-size: 24px;
+}
+.fondocard h1{
+    color: #ffffff;
+    font-size: 14px;
+}
+.fondocard p{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 10px;
+}
