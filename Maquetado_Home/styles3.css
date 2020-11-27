@@ -92,3 +92,23 @@
     line-height: 19px;
     margin-bottom: 98px;
 }
+.fondocard{
+    background: url(../Imagenes/ciudad.png);
+    width: 733px;
+    height: 350px;
+}
+.fondocard h5{
+    color: #ffffff;
+    margin-top: 260px;
+    font-size: 24px;
+}
+.fondocard h1{
+    color: #ffffff;
+    font-size: 14px;
+}
+.fondocard p{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 10px;
+}
