@@ -1,91 +1,255 @@
-
-.travelsy{
+.travelsy {
     position: relative;
     background: url(../Imagenes/Aboutusimg.png);
     width: 100%;
     height: 815px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.logo img{
+
+.logo img {
     position: absolute;
     margin: 40px;
     float: left;
 }
-.nav-link{
+
+.nav-link {
     font-family: 'Abel', sans-serif;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-top: 40px;
 }
-.titulo h1{
-        font-family: 'Abel', sans-serif;
-        color: #FFFFFF;
-        font-size: 80px;
-        margin-top: 299px;
+
+.titulo h1 {
+    font-family: 'Abel', sans-serif;
+    color: #FFFFFF;
+    font-size: 80px;
+    margin-top: 299px;
 }
-.cuadroblanco{
+
+.cuadroblanco {
     position: absolute;
     content: url(../Imagenes/Rectanglewhiteabout.png);
     left: 0px;
     bottom: 0%;
 }
-.informacionabout h3{
+
+.informacionabout h3 {
     position: absolute;
     color: #000000;
     font-size: 14px;
     margin-bottom: 33px;
-}
-.informacionabout h4{
-    color: #9B9B9B;
-    font-size: 16px;
+    margin-top: 20px;
 }
 
-.ourstory{
+.informacionabout h4 {
+    color: #9B9B9B;
+    font-size: 16px;
+    margin-top: 230px;
+}
+
+.ourstory {
     margin-top: 100px;
     margin-bottom: 45px;
 }
-.ourstory h5{
+
+.ourstory h5 {
     font-family: 'Abel', sans-serif;
     color: #9B9B9B;
     font-size: 14px;
 }
-.titulos h1{
+
+.titulos h1 {
     font-family: 'Abel', sans-serif;
     font-size: 50px;
     color: #000000;
 }
-.titulos p{
-font-family: 'Abel', sans-serif;
-font-size: 13px;
-color:#4A4A4A;
+
+.titulos p {
+    font-family: 'Abel', sans-serif;
+    font-size: 13px;
+    color: #4A4A4A;
 }
-.titulos{
+
+.titulos {
     padding-bottom: 90px;
 }
-.parte-tres h5{
+
+.parte-tres h5 {
     font-family: 'Abel', sans-serif;
     font-size: 14px;
     color: #9B9B9B;
     margin-top: 100px;
     margin-bottom: 45px;
-    }
-.sub h1{
+}
+
+.sub h1 {
     font-family: 'Abel', sans-serif;
     font-size: 30px;
     color: #000000;
-    }
-.sub p{
+}
+
+.sub p {
     font-family: 'Abel', sans-serif;
     font-size: 13px;
     color: #4a4a4a;
-    }
-.parte-cuatro h5{
+}
+
+.parte-cuatro h5 {
     font-family: 'Abel', sans-serif;
     font-size: 14px;
-    color:#4A4A4A;
+    color: #4A4A4A;
     margin-top: 120px;
     margin-bottom: 45px;
 }
-    
 
+.video {
+    position: relative;
+    background: url(../Imagenes/video.png);
+    width: 100%;
+    height: 700px;
+}
 
+.parte-cinco h5 {
+    font-family: 'Abel', sans-serif;
+    color: #9B9B9B;
+    font-size: 14;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
 
+.sub2 h1 {
+    font-family: 'Abel', sans-serif;
+    color: #000000;
+    font-size: 50px;
+    margin-top: 63px;
+    margin-bottom: 45px;
+}
+
+.chica1 {
+    margin-bottom: 65px;
+    margin-right: 20px;
+}
+
+.customers {
+    background-color: #f8f8f8;
+    height: 518px;
+    padding-top: 100px;
+}
+
+.testimonialscard {
+    font-family: 'Abel', sans-serif;
+    width: 357px;
+    background-color: #f8f8f8;
+}
+
+.testimonialscard h1 {
+    font-size: 50px;
+    color: #000000;
+    margin-top: 45px;
+}
+
+.testimonialscard h2 {
+    font-size: 50px;
+    color: #ff5200;
+}
+
+.testimonialscard p {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: #9b9b9b;
+}
+
+.testimonialstext {
+    background-color: #ffffff;
+    font-family: 'Abel', sans-serif;
+    height: 318px;
+}
+
+.testimonialstext p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.testimonialstext h1 {
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.testimonialstext h2 {
+    position: absolute;
+    font-size: 14px;
+    bottom: 40px;
+    left: 30px;
+    color: #4a4a4a;
+}
+
+.informacion {
+    font-family: 'Abel', sans-serif;
+    padding-top: 104px;
+    padding-bottom: 64px;
+}
+
+.informacion h1 {
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.informacion h2,
+p {
+    color: #4a4a4a;
+    font-size: 12px;
+    margin-bottom: 9px;
+}
+
+.help {
+    padding-bottom: 45px;
+}
+
+.marcas {
+    position: relative;
+    background-color: #ffffff;
+}
+
+.logoT {
+    padding-top: 44px;
+}
+
+.logos img {
+    padding-top: 40px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+}
+
+.cajasdetexto {
+    padding-top: 40px;
+}
+
+.lineagrissup {
+    position: absolute;
+    border-top: 1px solid #e4e4e4;
+    left: 0;
+    width: 100%;
+}
+
+.lineagris {
+    position: absolute;
+    content: url(../Imagenes/lineagris.png);
+    left: 0;
+    width: 100%;
+    top: 100px;
+}
+
+.copyright {
+    font-family: 'Abel', sans-serif;
+    color: #333333;
+    padding-top: 50px;
+    padding-bottom: 47px;
+}
+
+.copyright h1 {
+    font-size: 12px;
+}
+
+.carta14inf:hover {
+    background-color: #f8f8f8;
+}
