@@ -1,0 +1,65 @@
+@media (min-width: 768px) and (max-width: 991.98px){
+    .imagenesgrandes img{
+        width: 50%;
+    }
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media (min-width: 360px) and (max-width: 500px){
+    .imagenesgrandes img{
+        width: 50%;
+    }
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+.inicio{
+    position: relative;
+    background: url(../Imagenes/carretera.png);
+    width: 100%;
+    height: 815px;
+    font-family: 'Abel', sans-serif;
+    padding-top: 44px;
+}
+.logotravelsy{
+    position: absolute;
+    content: url(../Imagenes/Travelsy.png);
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.inicio h1{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 138px;
+    margin-bottom: 25px;
+}
+.inicio h2{
+    color: #ffffff;
+    font-size: 80px;
+}
+.blancohome{
+    position: absolute;
+    content: url(../Imagenes/Rectanglewhiteabout.png);
+    left: 0;
+    bottom: 0;
+}
+.amun{
+    position: relative;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+    padding-top: 100px;
+}
+.amun h1{
+    color: black;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.amun h2{
+    color: black;
+    font-size: 13px;
+    line-height: 20px;
+    
+}
