@@ -8,32 +8,38 @@ html, body{
     width: 100%;
     height: 815px;
     color: #ffffff;
-    padding-top: 44px;
+    padding-top: 40px;
 }
-.logo p{
-    font-family: 'Abel', sans-serif;
+.Logo{
     position: absolute;
-    font-size: 18px;
-    left: 0px;
+    content: url(../Imagenes/Travelsy.png);
+    margin-left: 44px;
+    margin-top: 10px;
 }
 .barra{
     font-size: 13px;
     font-family: 'Abel', sans-serif;
+    
+}
+.cabecera li{
+    margin-bottom: 153px;
 }
 .textosup h2{
     font-family: 'Abel', sans-serif;
     font-size: 14px; 
+    margin-bottom: 25px;
 }
 .textosup p{
     font-family: 'Abel', sans-serif;
     font-size: 80px ;
     color: #ffffff;
+    line-height: 95px;
 }
 .line{
     position: absolute;
     content: url(../Imagenes/RectangleW.png);
     color: white;
-    top: 612px;
+    margin-top: 90px;
 }
  .lineInf{
      content: url(../Imagenes/RectangleInf.png);
@@ -104,6 +110,25 @@ html, body{
     width: 100%;
     height: 873px;
     background-color: #f8f8f8;
+    font-family: 'Abel', sans-serif;
+}
+.Imagenesgrandes h1{
+    color: #9b9b9b;
+    font-size: 14px;
+    margin-top: 100px;
+}
+.Imagenesgrandes h2{
+    color: #000000;
+    font-size: 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.ovalos{
+    margin-top: 40px;
+}
+.ovalos img{
+    margin-right: 10px;
+
 }
 .carta4{
     margin-bottom: 75px;
