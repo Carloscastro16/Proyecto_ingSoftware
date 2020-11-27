@@ -1,0 +1,89 @@
+.parte_1{
+    width: 50%;
+    height: 635px;
+    background: url(../imagenes/Overlay.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.logo p{
+    font-family: 'Abel', sans-serif;
+    position: absolute;
+    font-size: 18px;
+    left: 0px;
+}
+.barra{
+    font-size: 13px;
+    font-family: 'Abel', sans-serif;
+}
+.textosup h2{
+    font-family: 'Abel', sans-serif;
+    font-size: 14px; 
+}
+.textosup p{
+    font-family: 'Abel', sans-serif;
+    font-size: 80px ;
+}
+.line{
+    position: absolute;
+    content: url(../imagenes/RectangleW.png);
+    color: white;
+    top: 612px;
+}
+ .lineInf{
+     content: url(../imagenes/RectangleInf.png);
+     position: absolute;
+     left: 0;
+     margin-top: 160px;
+ }
+ .popular{
+    font-family: 'Abel', sans-serif;
+     position: relative;
+     padding-top: 100px;
+ }
+ .Filter h1{
+     font-size: 24px;
+ }
+ .acti h1{
+     font-size: 50px;
+ }
+ .card{
+     background-color: white;
+     border: none;
+     margin-right: 0px;
+     margin-bottom: 20px;
+ }
+ .carta1:hover{
+     background-color: #979797;
+ }.carta2:hover{
+     background-color: #979797;
+ }.carta3:hover{
+     background-color: #979797;
+ }.carta4:hover{
+     background-color: #979797;
+ }
+ .carta1, .carta2{
+    margin-top: 105px;
+}
+.filtros{
+    font-family: 'Abel', sans-serif;
+    font-size: 13px;
+    color: black;
+    background-color: #979797;
+}
+.btn-info{
+    color: black;
+    height: 30px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    margin: 5px;
+    border: 0mm;
+}
+.btn-info:hover{
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+}
+.filtros h2{
+    font-size: 13px;
+}
