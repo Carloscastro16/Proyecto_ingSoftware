@@ -21,9 +21,32 @@ html, body{
     font-family: 'Abel', sans-serif;
     
 }
+.nav-link {
+    font-family: 'Abel', sans-serif;
+    color: #FFFFFF;
+  }
+  .nav-link:hover{
+    color: #ff5200;
+  }
 .cabecera li{
     margin-bottom: 153px;
 }
+.cabecera h3{
+    position: relative;
+    font-size: 13px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.cabecera h5{
+    font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-top: 70px;
+}
+.flechitaimg{
+    margin-top: 65px;
+  }
 .textosup h2{
     font-family: 'Abel', sans-serif;
     font-size: 14px; 
@@ -39,13 +62,13 @@ html, body{
     position: absolute;
     content: url(../Imagenes/RectangleW.png);
     color: white;
-    margin-top: 90px;
+    bottom: 202px;
 }
  .lineInf{
      content: url(../Imagenes/RectangleInf.png);
      position: absolute;
      left: 0;
-     margin-top: 160px;
+     bottom: 112px;
  }
  .popular{
     font-family: 'Abel', sans-serif;
