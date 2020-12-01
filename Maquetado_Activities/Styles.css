@@ -49,7 +49,7 @@
     }
 
 }
-@media (min-width: 340px) and (max-width: 500px){
+@media (min-width: 320px) and (max-width: 500px){
     html, body{
         width: 100%;
         overflow-x: hidden;
@@ -72,7 +72,7 @@
         font-size: 12px;
         padding-top: 20px;
     }
-    .Barra img{
+    .item1{
         display: none;
     }
     .line, .lineInf{
@@ -276,6 +276,20 @@ html, body{
     padding-top: 100px;
     font-family: 'Abel', sans-serif;
 }
+.trescartas button{
+    color: black;
+    height: 40px;
+    width: 150px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border: 0mm;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .trescartas button:hover{
+    background-color: #ff5200;
+    border-color: #ff5200;
+  }
 .customers{
     background-color: #f8f8f8;
     height: 100%;

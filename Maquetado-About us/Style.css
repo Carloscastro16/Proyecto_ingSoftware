@@ -1,3 +1,22 @@
+@media (min-width: 320px) and (max-width: 500px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
 .travelsy {
     position: relative;
     background: url(../Imagenes/Aboutusimg.png);
@@ -6,6 +25,9 @@
     color: #FFFFFF;
 }
 
+.card{
+    border: 0ch;
+}
 .logo img {
     position: absolute;
     margin: 40px;
@@ -131,8 +153,9 @@
 
 .customers {
     background-color: #f8f8f8;
-    height: 518px;
+    height: 100%;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .testimonialscard {
@@ -162,6 +185,7 @@
     background-color: #ffffff;
     font-family: 'Abel', sans-serif;
     height: 318px;
+    margin-bottom: 10px;
 }
 
 .testimonialstext p {
