@@ -12,6 +12,11 @@
     .informacionabout h4 {
         margin-top: 30px!important;
     }
+    .video {
+        position: relative;
+        width: 500%;
+        height: 700px;
+    }
     
 }
 @media (min-width: 768px) and (max-width: 991.98px){
