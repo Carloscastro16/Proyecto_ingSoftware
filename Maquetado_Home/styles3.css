@@ -9,11 +9,22 @@
     .barra img{
         display: none;
     }
-    .imagenesgrandes img{
+    .inicio h3{
+        margin-top: 240px !important;
+    }
+    
+    .grande img{
         position: relative;
         margin-top: 10px;
         width: 470px;
         align-items: center;
+    }
+    .pequeño img{
+        width: 324px;
+        margin-top: 10px;
+    }
+    .fondo3{
+        margin-top: 20px !important;
     }
     .ovalos img{
         width: 10px;
@@ -30,35 +41,80 @@
     .fondo5{
         margin-top: 20px;
     }
-    .continfo{
-        position: relative;
-        padding-top: 50px;
-        width: 100%;
-        margin-bottom: 50px;
-    }
-    .testimonialscard h1{
-        font-size: 45px;
-        color: #000000;
-        margin-top: 20px;
-    }
-    .testimonialstext {
-        height: 250px;
-    }
-    .continfo{
-        width: 100%;
-        height: 1000px;
-    }
-    .clearfix:after {content:".";display:block; height:0;clear:both;visibility:hidden;}
-
-.clearfix { display:inline-block; }
+    
+    
 }
-@media (min-width: 360px) and (max-width: 500px){
+@media (min-width: 320px) and (max-width: 500px){
     .imagenesgrandes img{
-        width: 80%;
+        width: 100%;
+        margin-bottom: 20px;
     }
     html, body{
         width: 100%;
         overflow-x: hidden;
+    }
+    section{
+        border: none;
+    }
+    .logotravelsy{
+        width: 40px;
+        margin-left: 25px !important;
+        margin-top: 8px !important;
+    }
+    .imagenesequis{
+        display: none;
+    }
+    .item1{
+        margin-left: 60px;
+    }
+    li.nav-item{
+        font-size: 55% ;
+
+    }
+    .linktexto{
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+    .inicio h1{
+        margin-top: 95px !important;
+    }
+    .inicio h2{
+        font-size: 45px !important;
+    }
+    .ovalos{
+        display: none;
+    }
+    .inicio h3{
+        margin-top: 10px !important;
+    }
+    .principal{
+        margin-top: 310px;
+    }
+    .rocky h1{
+        margin-top: 40px;
+    }
+    .mountains img{
+        width: 100% !important;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .fondocard, .fondocard2, .fondocard3, .fondocard4, .fondocard5{
+        width: 100% !important;
+    }
+    .locationsh h1{
+        font-size: 90% !important;
+        margin-left: 40px;
+        margin-bottom: 0% !important;
+    }
+    .locationsh h2{
+        font-size: 90% !important;
+        margin-left: 40px;
+    }
+    .testimonialstext{
+        margin-bottom: 20px;
     }
 }
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -69,6 +125,7 @@
     .imagenesgrandes{
         width: 700px;
     }
+    
 }
 .inicio{
     position: relative;
@@ -95,6 +152,17 @@
     color: #ffffff;
     font-size: 80px;
 }
+.inicio h3{
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-top: 260px;
+}
+.inicio h4{
+    font-size: 16px;
+    color: #000000;
+    
+}
+
 .nav-link{
     color: #ffffff;
 }
@@ -310,14 +378,15 @@
 }
 .customers{
     background-color: #f8f8f8;
-    height: 518px;
+    height: 100%;
     padding-top: 100px;
 }
 
 .testimonialscard{
     font-family: 'Abel', sans-serif;
-    width: 357px;
+    width: 100%;
     background-color: #f8f8f8;
+    margin-bottom: 100px;
 }
 .testimonialscard h1{
     font-size: 50px;
