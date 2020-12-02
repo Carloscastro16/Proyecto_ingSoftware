@@ -16,6 +16,10 @@
       width: 100%;
       overflow-x: hidden;
   }
+  .contenedor{
+    padding-left: 0% !important;
+  }
+  
 }
 .testimonialscard{
   width: 100px;
@@ -312,7 +316,7 @@ padding-bottom: 665px;
 
 .testimonialscard{
   font-family: 'Abel', sans-serif;
-  width: 357px;
+  width: 100%;
   background-color: #f8f8f8;
   
 }
