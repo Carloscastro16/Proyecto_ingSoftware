@@ -12,13 +12,10 @@
     .informacionabout h4 {
         margin-top: 35px!important;
     }
-    .cuadroblanco {
-        position: absolute;
-        content: url(../Imagenes/Rectanglewhiteabout.png);
-        left: 0px;
-        bottom: 0%;
+    .Logo{
+        width: 60px;
+        margin-left: 25px !important;
     }
-    
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     html, body{
