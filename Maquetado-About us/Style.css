@@ -6,11 +6,11 @@
     .informacionabout h3 {
         position: absolute;
         margin-bottom: 33px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     
     .informacionabout h4 {
-        margin-top: 30px!important;
+        margin-top: 20px!important;
     }
     
 }
