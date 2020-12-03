@@ -29,6 +29,15 @@
         width: 100%;
         overflow-x: hidden;
     }
+    .informacionabout h3 {
+        position: absolute;
+        margin-bottom: 33px;
+        margin-top: 10px;
+    }
+    
+    .informacionabout h4 {
+        margin-top: 35px;
+    }
     .customers {
         font-size: 12px;
         padding-top: 20px;
