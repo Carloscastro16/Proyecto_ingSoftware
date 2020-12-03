@@ -55,6 +55,12 @@
         .testimonialstext {
             height: 250px;
         }
+        .cuadroblanco {
+            position: absolute;
+            content: url(../Imagenes/Rectanglewhiteabout.png);
+            left: 0px;
+            bottom: 0%;
+        }
 }
 @media (min-width: 1024px) and (max-width: 1200px){
     html, body{
