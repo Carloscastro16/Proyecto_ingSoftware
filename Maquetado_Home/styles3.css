@@ -1,132 +1,4 @@
-@media (min-width: 768px) and (max-width: 991.98px){
-    html, body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .inicio h1{
-        margin-top: 10px;
-    }
-    .barra img{
-        display: none;
-    }
-    .inicio h3{
-        margin-top: 240px !important;
-    }
-    
-    .grande img{
-        position: relative;
-        margin-top: 10px;
-        width: 470px;
-        align-items: center;
-    }
-    .pequeño img{
-        width: 324px;
-        margin-top: 10px;
-    }
-    .fondo3{
-        margin-top: 20px !important;
-    }
-    .ovalos img{
-        width: 10px;
-    }
-    .rocky img{
-        margin-top: 10px;
-    }
-    .fondocard{
-        width: 500px;
-    }
-    .fondo4{
-        margin-top: 20px;
-    }
-    .fondo5{
-        margin-top: 20px;
-    }
-    
-    
-}
-@media (min-width: 320px) and (max-width: 500px){
-    .imagenesgrandes img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    html, body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    section{
-        border: none;
-    }
-    .logotravelsy{
-        width: 40px;
-        margin-left: 25px !important;
-        margin-top: 8px !important;
-    }
-    .imagenesequis{
-        display: none;
-    }
-    .item1{
-        margin-left: 60px;
-    }
-    li.nav-item{
-        font-size: 55% ;
 
-    }
-    .linktexto{
-        margin-top: 0px;
-        margin-left: 0%;
-    }
-    .inicio h1{
-        margin-top: 95px !important;
-    }
-    .inicio h2{
-        font-size: 45px !important;
-    }
-    .ovalos{
-        display: none;
-    }
-    .inicio h3{
-        margin-top: 10px !important;
-    }
-    .principal{
-        margin-top: 310px;
-    }
-    .rocky h1{
-        margin-top: 40px;
-    }
-    .mountains img{
-        width: 100% !important;
-    }
-    .card{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    
-    .fondocard, .fondocard2, .fondocard3, .fondocard4, .fondocard5{
-        width: 100% !important;
-    }
-    .locationsh h1{
-        font-size: 90% !important;
-        margin-left: 40px;
-        margin-bottom: 0% !important;
-    }
-    .locationsh h2{
-        font-size: 90% !important;
-        margin-left: 40px;
-    }
-    .testimonialstext{
-        margin-bottom: 20px;
-    }
-}
-@media (min-width: 1024px) and (max-width: 1200px){
-    html, body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .imagenesgrandes{
-        width: 700px;
-    }
-    
-}
 .inicio{
     position: relative;
     background: url(../Imagenes/carretera.png);
@@ -483,4 +355,132 @@ padding-bottom: 45px;
 .carta14inf:hover{
     background-color: #f8f8f8;
 }
+@media (min-width: 768px) and (max-width: 991.98px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .inicio h1{
+        margin-top: 10px;
+    }
+    .barra img{
+        display: none;
+    }
+    .inicio h3{
+        margin-top: 240px ;
+    }
+    
+    .grande img{
+        position: relative;
+        margin-top: 10px;
+        width: 470px;
+        align-items: center;
+    }
+    .pequeño img{
+        width: 324px;
+        margin-top: 10px;
+    }
+    .fondo3{
+        margin-top: 20px ;
+    }
+    .ovalos img{
+        width: 10px;
+    }
+    .rocky img{
+        margin-top: 10px;
+    }
+    .fondocard{
+        width: 500px;
+    }
+    .fondo4{
+        margin-top: 20px;
+    }
+    .fondo5{
+        margin-top: 20px;
+    }
+    
+    
+}
+@media (min-width: 320px) and (max-width: 500px){
+    .imagenesgrandes img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    section{
+        border: none;
+    }
+    .logotravelsy{
+        width: 40px;
+        margin-left: 25px ;
+        margin-top: 8px ;
+    }
+    .imagenesequis{
+        display: none;
+    }
+    .item1{
+        margin-left: 60px;
+    }
+    li.nav-item{
+        font-size: 55% ;
 
+    }
+    .linktexto{
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+    .inicio h1{
+        margin-top: 95px ;
+    }
+    .inicio h2{
+        font-size: 45px ;
+    }
+    .ovalos{
+        display: none;
+    }
+    .inicio h3{
+        margin-top: 10px ;
+    }
+    .principal{
+        margin-top: 310px;
+    }
+    .rocky h1{
+        margin-top: 40px;
+    }
+    .mountains img{
+        width: 100% ;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .fondocard, .fondocard2, .fondocard3, .fondocard4, .fondocard5{
+        width: 100% ;
+    }
+    .locationsh h1{
+        font-size: 90% ;
+        margin-left: 40px;
+        margin-bottom: 0% ;
+    }
+    .locationsh h2{
+        font-size: 90% ;
+        margin-left: 40px;
+    }
+    .testimonialstext{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .imagenesgrandes{
+        width: 700px;
+    }
+    
+}
