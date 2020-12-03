@@ -6,25 +6,66 @@
     .informacionabout h3 {
         position: absolute;
         margin-bottom: 33px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     
     .informacionabout h4 {
-        margin-top: 30px!important;
+        margin-top: 35px!important;
     }
-    
+    .Logo{
+        width: 60px;
+        margin-left: 25px !important;
+    }
+    .Barra{
+        margin-top: 20px;
+    }
+    .customers {
+        font-size: 12px;
+        padding-top: 20px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     html, body{
         width: 100%;
         overflow-x: hidden;
     }
+    .informacionabout h3 {
+        position: absolute;
+        margin-bottom: 33px;
+        margin-top: 10px;
+    }
+    
+    .informacionabout h4 {
+        margin-top: 35px;
+    }
+    .customers {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    .testimonialscard{
+        font-size: small;
+        margin-top: 20px;
+    }
+       
+    .testimonialscard h1{
+            font-size: 45px;
+            color: #000000;
+            margin-top: 20px;
+        }
+        .testimonialstext {
+            height: 250px;
+        }
 }
 @media (min-width: 1024px) and (max-width: 1200px){
     html, body{
         width: 100%;
         overflow-x: hidden;
     }
+    .customers {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
 }
 .travelsy {
     position: relative;
