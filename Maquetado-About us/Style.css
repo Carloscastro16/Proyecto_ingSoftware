@@ -25,6 +25,23 @@
         width: 100%;
         overflow-x: hidden;
     }
+    .customers {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    .testimonialscard{
+        font-size: small;
+        margin-top: 20px;
+    }
+       
+    .testimonialscard h1{
+            font-size: 45px;
+            color: #000000;
+            margin-top: 20px;
+        }
+        .testimonialstext {
+            height: 250px;
+        }
 }
 @media (min-width: 1024px) and (max-width: 1200px){
     html, body{
