@@ -3,6 +3,9 @@
         width: 100%;
         overflow-x: hidden;
     }
+    .cuadroblanco h1{
+        position: absolute;
+    }
     .informacionabout h3 {
         position: absolute;
         margin-bottom: 33px;
@@ -39,7 +42,6 @@
         margin-bottom: 33px;
         margin-top: 10px;
     }
-    
     .informacionabout h4 {
         margin-top: 35px;
     }
