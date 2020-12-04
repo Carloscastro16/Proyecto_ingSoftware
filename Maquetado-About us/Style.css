@@ -71,7 +71,9 @@
         font-size: 12px;
         padding-top: 20px;
     }
-
+    .contenedor{
+        padding-left: 0% !important;
+    }
 }
 .travelsy {
     position: relative;
