@@ -1,88 +1,6 @@
-@media (min-width: 320px) and (max-width: 500px){
-    html, body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .informacionabout h3 {
-        position: absolute;
-        margin-bottom: 33px;
-        margin-top: 10px;
-    }
-    
-    .informacionabout h4 {
-        margin-top: 35px!important;
-    }
-    .Logo{
-        width: 60px;
-        margin-left: 25px !important;
-    }
-    .Barra{
-        margin-top: 20px;
-    }
-    .customers {
-        font-size: 12px;
-        padding-top: 20px;
-    }
-    .video{
-        position: relative;
-        width: 60%;
-        background: url(../Imagenes/video.png);
-    }
-}
-@media (min-width: 768px) and (max-width: 991.98px){
-    html, body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .video{
-        position: relative;
-        width: 60%;
-        background: url(../Imagenes/video.png);
-    }
-    .informacionabout h3 {
-        position: absolute;
-        margin-bottom: 33px;
-        margin-top: 10px;
-    }
-    .informacionabout h4 {
-        margin-top: 35px;
-    }
-    .customers {
-        font-size: 12px;
-        padding-top: 20px;
-    }
-    .testimonialscard{
-        font-size: small;
-        margin-top: 20px;
-    }
-       
-    .testimonialscard h1{
-            font-size: 45px;
-            color: #000000;
-            margin-top: 20px;
-        }
-        .testimonialstext {
-            height: 250px;
-        }
-        .cuadroblanco {
-            position: absolute;
-            content: url(../Imagenes/Rectanglewhiteabout.png);
-            left: 0px;
-            bottom: 0%;
-        }
-}
-@media (min-width: 1024px) and (max-width: 1200px){
-    html, body{
-        width: 100%;
-        overflow-x: hidden;
-    }
-    .customers {
-        font-size: 12px;
-        padding-top: 20px;
-    }
-    .contenedor{
-        padding-left: 0% !important;
-    }
+html, body{
+    width: 100%;
+    overflow-x: hidden;
 }
 .travelsy {
     position: relative;
@@ -91,7 +9,9 @@
     height: 815px;
     color: #FFFFFF;
 }
-
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
 .card{
     border: 0ch;
 }
@@ -120,19 +40,21 @@
     left: 0px;
     bottom: 0%;
 }
+.informacionabout{
+    margin-top: 209px;
+}
 
 .informacionabout h3 {
-    position: absolute;
+    
     color: #000000;
     font-size: 14px;
-    margin-bottom: 33px;
     margin-top: 20px;
 }
 
 .informacionabout h4 {
     color: #9B9B9B;
     font-size: 16px;
-    margin-top: 230px;
+    margin-top: 10px;
 }
 
 .ourstory {
@@ -145,7 +67,9 @@
     color: #9B9B9B;
     font-size: 14px;
 }
-
+.persona-1{
+    width: 100%;
+}
 .titulos h1 {
     font-family: 'Abel', sans-serif;
     font-size: 50px;
@@ -192,9 +116,9 @@
 
 .video {
     position: relative;
-    background: url(../Imagenes/video.png);
+    /*background: url(../Imagenes/video.png);*/
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 
 .parte-cinco h5 {
@@ -227,7 +151,7 @@
 
 .testimonialscard {
     font-family: 'Abel', sans-serif;
-    width: 357px;
+    width: 100%;
     background-color: #f8f8f8;
 }
 
@@ -343,4 +267,149 @@ p {
 
 .carta14inf:hover {
     background-color: #f8f8f8;
+}
+@media (min-width: 320px) and (max-width: 500px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .logo{
+        width: 60px;
+        margin-left: 26% ;
+    }
+    .imagen-1 img{
+        width: 100%;
+    }
+    .imagenesequis{
+        display: none;
+    }
+    .nav-link{
+        font-size: .5em;
+    }
+    .buscador{
+        width: 12%;
+    }
+    .buscador1{
+        width: 3.5em;
+    }
+    .buscador2{
+        width: .9em;
+    }
+    .titulo h1{
+        font-size: 50px;
+        margin-top: 120px;
+    }
+    .informacionabout{
+        margin-top: 105%;
+    }
+    .informacionabout h3 {
+        position: absolute;
+        margin-top: 10px;
+    }
+    
+    .informacionabout h4 {
+        margin-top: 24px;
+    }
+    .Logo{
+        width: 60px;
+        margin-left: 25px;
+    }
+    .Barra{
+        margin-top: 20px;
+    }
+    .customers {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    .video img{
+        position: relative;
+        width: 100%;
+    }
+    .persona-1{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .logo{
+        width: 60px;
+        margin-left: 25px ;
+    }
+    .imagenesequis{
+        display: none;
+    }
+    .persona-1 img{
+        width: 100%;
+    }
+    .persona-2 img{
+        width: 147.5%;
+    }
+    .buscador{
+        width: 12%;
+    }
+    .buscador1{
+        width: 3.5em;
+    }
+    .buscador2{
+        width: .9em;
+    }
+    .titulo h1{
+        font-size: 70px;
+        margin-top: 40%;
+    }
+    .video img{
+        position: relative;
+        width: 100%;
+    }
+    .informacionabout{
+        margin-top: 40%;
+    }
+    .informacionabout h3 {
+        position: absolute;
+        margin-bottom: 33px;
+        margin-top: 10px;
+    }
+    .informacionabout h4 {
+        margin-top: 35px;
+    }
+    .customers {
+        font-size: 12px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .testimonialscard{
+        font-size: small;
+        margin-top: 20px;
+    }
+       
+    .testimonialscard h1{
+            font-size: 45px;
+            color: #000000;
+            margin-top: 20px;
+        }
+    .testimonialstext {
+        height: 250px;
+    }
+    .cuadroblanco {
+        position: absolute;
+        content: url(../Imagenes/Rectanglewhiteabout.png);
+        left: 0px;
+        bottom: 0%;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .customers {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    .contenedor{
+        padding-left: 0% !important;
+    }
 }
