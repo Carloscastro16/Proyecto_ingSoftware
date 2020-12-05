@@ -4,8 +4,8 @@ html, body{
     overflow-x: hidden;
     font-size: 10px;
 }
-a{
-    text-decoration: none;
+a:link, a:visited, a:active {
+    text-decoration:none;
 }
 .experience{
     color: #ffffff;
@@ -54,10 +54,10 @@ li{
     font-size: 14px;
   line-height: 19px;
   color: #ffffff;
-  margin-top: 100%;
+  margin-top: 260%;
 }
 .flechitaimg{
-    margin-top: 65px;
+    margin-top: 15%;
   }
 .cabecera h2{
     font-family: 'Abel', sans-serif;
@@ -421,18 +421,20 @@ padding-bottom: 45px;
         
     }
     .rectangulonaranja{
-        width: 175px;
-        height: 30px;
+        width: 38px;
+    }
+    .Lupa{
+        width: 13px;
     }
     .textosup{
-        margin-top: 40px;
+        margin-top: 150px;
     }
     .experience{
         font-size: 35px;
         line-height: 38px;
     }
     .Barra{
-        margin-top: 20px;
+        margin-top: 30px;
     }
     h5.textitem{
         margin-top: 20px;
@@ -464,7 +466,7 @@ padding-bottom: 45px;
         width: 200px;
     }
     .nav-link{
-        font-size: 1em;
+        font-size: .6em;
     }
     .flechitaimg{
         display: none;
@@ -505,4 +507,15 @@ padding-bottom: 45px;
         display: none;
     }
 
+}
+@media (min-width: 414px) and (max-width: 450px){
+    .rectangulonaranja{
+        width: 38px;
+    }
+    .Lupa{
+        width: 12px;
+    }
+    .nav-link{
+        font-size: 1em;
+    }
 }
