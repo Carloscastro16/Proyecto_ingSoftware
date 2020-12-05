@@ -23,18 +23,27 @@
         font-size: 12px;
         padding-top: 20px;
     }
+    .video{
+        position: relative;
+        width: 60%;
+        background: url(../Imagenes/video.png);
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     html, body{
         width: 100%;
         overflow-x: hidden;
     }
+    .video{
+        position: relative;
+        width: 60%;
+        background: url(../Imagenes/video.png);
+    }
     .informacionabout h3 {
         position: absolute;
         margin-bottom: 33px;
         margin-top: 10px;
     }
-    
     .informacionabout h4 {
         margin-top: 35px;
     }
@@ -55,6 +64,12 @@
         .testimonialstext {
             height: 250px;
         }
+        .cuadroblanco {
+            position: absolute;
+            content: url(../Imagenes/Rectanglewhiteabout.png);
+            left: 0px;
+            bottom: 0%;
+        }
 }
 @media (min-width: 1024px) and (max-width: 1200px){
     html, body{
@@ -65,7 +80,9 @@
         font-size: 12px;
         padding-top: 20px;
     }
-
+    .contenedor{
+        padding-left: 0% !important;
+    }
 }
 .travelsy {
     position: relative;
