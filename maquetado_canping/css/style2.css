@@ -30,7 +30,26 @@
         align-items: center;
     }
 }
-
+    @media screem and (max-width: 960px){
+        #main-conteiner {
+            width: 100%;
+        }
+        nav ul li a{
+            padding: 0px;
+        }
+    }
+    @media screem and (max-width: 600px){
+        nav, nav ul{
+            padding: 0;
+        }
+        nav ul li{
+            text-align: center;
+            width: 100%;
+        }
+        nav li a{
+            display: block !important;
+        }
+    }
 .testimonialscard {
     width: 100px;
 }
@@ -157,6 +176,7 @@ body {
     position: relative;
     padding-top: 100px;
     padding-bottom: 665px;
+    display: none;
 }
 
 .parte_3 h2 {
