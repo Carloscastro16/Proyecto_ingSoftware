@@ -5,6 +5,7 @@ html, body{
     width: 100%;
     overflow-x: hidden;
 }
+
 .travelsy {
     position: relative;
     background: url(../Imagenes/Aboutusimg.png);
@@ -12,12 +13,17 @@ html, body{
     height: 815px;
     color: #FFFFFF;
 }
-a:link, a:visited, a:active {
-    text-decoration:none;
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
 }
-.card{
+
+.card {
     border: 0ch;
 }
+
 .logo img {
     position: absolute;
     margin: 40px;
@@ -59,12 +65,13 @@ a:link, a:visited, a:active {
     left: 0px;
     bottom: 0%;
 }
-.informacionabout{
+
+.informacionabout {
     margin-top: 209px;
+    font-family: 'Abel', sans-serif;
 }
 
 .informacionabout h3 {
-    
     color: #000000;
     font-size: 14px;
     margin-top: 20px;
@@ -86,9 +93,11 @@ a:link, a:visited, a:active {
     color: #9B9B9B;
     font-size: 14px;
 }
-.persona-1{
+
+.persona-1 {
     width: 100%;
 }
+
 .titulos h1 {
     font-family: 'Abel', sans-serif;
     font-size: 50px;
@@ -287,8 +296,10 @@ p {
 .carta14inf:hover {
     background-color: #f8f8f8;
 }
-@media (min-width: 320px) and (max-width: 500px){
-    html, body{
+
+@media (min-width: 320px) and (max-width: 500px) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
     }
@@ -297,95 +308,100 @@ p {
         margin-left: 4em ;
         margin-top: 2em;
     }
-    .imagen-1 img{
+    .imagen-1 img {
         width: 100%;
     }
-    .imagenesequis{
+    .imagenesequis {
         display: none;
     }
     
     .nav-link{
         font-size: .5em;
+        margin-top: 1em;
     }
-    .buscador{
+    .buscador {
         width: 12%;
     }
-    .buscador1{
+    .buscador1 {
         width: 3.5em;
     }
-    .buscador2{
+    .buscador2 {
         width: .9em;
     }
-    .titulo h1{
+    .titulo h1 {
         font-size: 50px;
-        margin-top: 120px;
+        margin-top: 3.4em;
     }
-    .informacionabout{
+    .informacionabout {
         margin-top: 105%;
     }
     .informacionabout h3 {
         position: absolute;
         margin-top: 10px;
     }
-    
     .informacionabout h4 {
-        margin-top: 24px;
+        margin-top: 2.2em;
     }
-    .Logo{
-        width: 60px;
-        margin-left: 25px;
+    .sub h1 {
+        margin-bottom: 1em;
+        margin-top: .5em;
     }
-    .Barra{
+    .logo {
+        display: none;
+    }
+    .Barra {
         margin-top: 20px;
     }
     .customers {
         font-size: 12px;
         padding-top: 20px;
     }
-    .video img{
+    .video img {
         position: relative;
         width: 100%;
     }
-    .persona-1{
+    .persona-1 {
         width: 100%;
     }
 }
-@media (min-width: 768px) and (max-width: 991.98px){
-    html, body{
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
     }
-    .logo{
+    .logo {
         width: 60px;
-        margin-left: 25px ;
+        margin-left: 25px;
     }
-    .imagenesequis{
+    .imagenesequis {
         display: none;
     }
-    .persona-1 img{
+    .persona-1 img {
         width: 100%;
     }
-    .persona-2 img{
+    .persona-2 img {
         width: 147.5%;
     }
-    .buscador{
+    .buscador {
         width: 12%;
     }
-    .buscador1{
+    .buscador1 {
         width: 3.5em;
     }
-    .buscador2{
+    .buscador2 {
         width: .9em;
     }
-    .titulo h1{
+    .titulo h1 {
         font-size: 70px;
         margin-top: 40%;
     }
-    .video img{
+    .video img {
         position: relative;
         width: 100%;
     }
-    .informacionabout{
+    .informacionabout {
         margin-top: 40%;
     }
     .informacionabout h3 {
@@ -401,16 +417,15 @@ p {
         padding-top: 20px;
         text-align: center;
     }
-    .testimonialscard{
+    .testimonialscard {
         font-size: small;
         margin-top: 20px;
     }
-       
-    .testimonialscard h1{
-            font-size: 45px;
-            color: #000000;
-            margin-top: 20px;
-        }
+    .testimonialscard h1 {
+        font-size: 45px;
+        color: #000000;
+        margin-top: 20px;
+    }
     .testimonialstext {
         height: 250px;
     }
@@ -421,8 +436,10 @@ p {
         bottom: 0%;
     }
 }
-@media (min-width: 1024px) and (max-width: 1200px){
-    html, body{
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
     }
@@ -430,7 +447,7 @@ p {
         font-size: 12px;
         padding-top: 20px;
     }
-    .contenedor{
+    .contenedor {
         padding-left: 0% !important;
     }
 }

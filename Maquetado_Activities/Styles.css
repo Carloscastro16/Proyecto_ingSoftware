@@ -1,17 +1,21 @@
-
-html, body{
+html,
+body {
     width: 100%;
     overflow-x: hidden;
     font-size: 10px;
 }
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-.experience{
-    color: #ffffff;
 
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
 }
-.cabecera{
+
+.experience {
+    color: #ffffff;
+}
+
+.cabecera {
     position: relative;
     background: url(../Imagenes/Overlay.png);
     width: 100%;
@@ -20,120 +24,152 @@ a:link, a:visited, a:active {
     padding-top: 40px;
     margin: 1px;
 }
-.Logo{
+
+.Logo {
     position: absolute;
     content: url(../Imagenes/Travelsy.png);
     margin-left: 44px;
     margin-top: .5%;
 }
-.barra{
+
+.barra {
     font-size: 13px;
     font-family: 'Abel', sans-serif;
-    
 }
+
 .nav-link {
     font-family: 'Abel', sans-serif;
     color: #FFFFFF;
-    
-  }
-  .nav-link:hover{
+}
+
+.nav-link:hover {
     color: #ff5200;
-  }
-li{
+}
+
+li {
     margin-bottom: 153px;
     font-size: 1.6em;
 }
-.cabecera h3{
+
+.cabecera h3 {
     position: relative;
     font-size: 13px;
     line-height: 18px;
     color: #ffffff;
     margin-top: 25%;
 }
-.cabecera h5{
+
+.cabecera h5 {
     font-size: 14px;
-  line-height: 19px;
-  color: #ffffff;
-  margin-top: 260%;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 260%;
 }
-.flechitaimg{
+
+.flechitaimg {
     margin-top: 15%;
-  }
-.cabecera h2{
+}
+
+.cabecera h2 {
     font-family: 'Abel', sans-serif;
-    font-size: 14px; 
+    font-size: 14px;
     margin-bottom: 25px;
 }
-.cabecera p{
+
+.cabecera p {
     font-family: 'Abel', sans-serif;
-    font-size: 80px ;
+    font-size: 80px;
     color: #ffffff;
     line-height: 95px;
 }
-.visitsite{
+
+.visitsite {
     color: #FFFFFF;
 }
-.line{
+
+.line {
     position: absolute;
     content: url(../Imagenes/RectangleW.png);
     color: white;
     bottom: 202px;
 }
- .lineInf{
-     content: url(../Imagenes/RectangleInf.png);
-     position: absolute;
-     left: 0;
-     bottom: 112px;
- }
- .popular{
+
+.lineInf {
+    content: url(../Imagenes/RectangleInf.png);
+    position: absolute;
+    left: 0;
+    bottom: 112px;
+}
+
+.popular {
     font-family: 'Abel', sans-serif;
-     position: relative;
-     padding-top: 100px;
- }
- .Filter h1{
-     font-size: 24px;
- }
- .acti h1{
-     font-size: 50px;
- }
- .card{
-     background-color: white;
-     border: none;
-     margin-bottom: 20px;
- }
- .card h2{
-     font-size: 18px;
- }
- .card p{
-     font-size: 13px;
-     color: #9b9b9b;
- }
- /*---hovers---*/
- a:hover{
-     color: #ff5200;
- }
- .carta1:hover{
-     background-color: #f8f8f8;
- }.carta2:hover{
-     background-color: #f8f8f8;
- }.carta3:hover{
-     background-color: #f8f8f8;
- }.carta4:hover{
-     background-color: #f8f8f8;
- }.carta5:hover{
+    position: relative;
+    padding-top: 100px;
+}
+
+.Filter h1 {
+    font-size: 24px;
+}
+
+.acti h1 {
+    font-size: 50px;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #9b9b9b;
+}
+
+
+/*---hovers---*/
+
+a:hover {
+    color: #ff5200;
+}
+
+.carta1:hover {
     background-color: #f8f8f8;
 }
 
- .carta1, .carta2{
+.carta2:hover {
+    background-color: #f8f8f8;
+}
+
+.carta3:hover {
+    background-color: #f8f8f8;
+}
+
+.carta4:hover {
+    background-color: #f8f8f8;
+}
+
+.carta5:hover {
+    background-color: #f8f8f8;
+}
+
+.carta1,
+.carta2 {
     margin-top: 105px;
 }
-.filtros{
+
+.filtros {
     font-family: 'Abel', sans-serif;
     font-size: 13px;
     color: black;
     background-color: #f8f8f8;
 }
-.btn-info{
+
+.btn-info {
     color: black;
     height: 30px;
     background-color: #ffffff;
@@ -141,90 +177,108 @@ li{
     margin: 5px;
     border: 0mm;
 }
-.btn-info:hover{
+
+.btn-info:hover {
     background-color: #4a90e2;
     border-color: #4a90e2;
 }
-.filtros h2{
+
+.filtros h2 {
     font-size: 13px;
 }
-.Imagenesgrandes{
+
+.Imagenesgrandes {
     width: 100%;
     height: 873px;
     background-color: #f8f8f8;
     font-family: 'Abel', sans-serif;
 }
-.Imagenesgrandes h1{
+
+.Imagenesgrandes h1 {
     color: #9b9b9b;
     font-size: 14px;
     margin-top: 100px;
 }
-.Imagenesgrandes h2{
+
+.Imagenesgrandes h2 {
     color: #000000;
     font-size: 50px;
     margin-top: 35px;
     margin-bottom: 50px;
 }
-.ovalos{
+
+.ovalos {
     margin-top: 40px;
 }
-.ovalos img{
-    margin-right: 10px;
 
+.ovalos img {
+    margin-right: 10px;
 }
-.carta4{
+
+.carta4 {
     margin-bottom: 75px;
 }
-.seiscards{
+
+.seiscards {
     position: relative;
     width: 100%;
     font-family: 'Abel', sans-serif;
-
 }
+
+
 /*---Palabras de cartas---*/
-.seiscards h3{
+
+.seiscards h3 {
     position: absolute;
     bottom: 153px;
     font-size: 24px;
     color: #ffffff;
-  }
-  .popular h3{
+}
+
+.popular h3 {
     position: absolute;
     bottom: 153px;
     font-size: 24px;
     color: #979797;
-  }
-  .trescartas h3{
+}
+
+.trescartas h3 {
     position: absolute;
     bottom: 153px;
     font-size: 24px;
     color: #979797;
-  }
-.Estrella{
+}
+
+.Estrella {
     margin-top: 15px;
 }
-.imagengrande{
+
+.imagengrande {
     background: url(../Imagenes/Imagen.png);
     width: 100%;
     height: 100%;
     position: relative;
     display: flex;
 }
-.grandesota{
+
+.grandesota {
     height: 700px;
 }
-.cuadro{
+
+.cuadro {
     content: url(../Imagenes/RectangleWhite.png);
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
-.trescartas{
+
+.trescartas {
     width: 100%;
     padding-top: 100px;
     font-family: 'Abel', sans-serif;
 }
-.trescartas button{
+
+.trescartas button {
     color: black;
     height: 40px;
     width: 150px;
@@ -234,12 +288,14 @@ li{
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 15px;
-  }
-  .trescartas button:hover{
+}
+
+.trescartas button:hover {
     background-color: #ff5200;
     border-color: #ff5200;
-  }
-.customers{
+}
+
+.customers {
     background-color: #f8f8f8;
     height: 100%;
     padding-top: 100px;
@@ -247,258 +303,294 @@ li{
     margin-bottom: 10px;
 }
 
-.testimonialscard{
+.testimonialscard {
     font-family: 'Abel', sans-serif;
     width: 100%;
     background-color: #f8f8f8;
 }
-.testimonialscard h1{
+
+.testimonialscard h1 {
     font-size: 50px;
     color: #000000;
     margin-top: 45px;
 }
-.testimonialscard h2{
+
+.testimonialscard h2 {
     font-size: 50px;
     color: #ff5200;
 }
-.testimonialscard p{
+
+.testimonialscard p {
     font-family: 'Abel', sans-serif;
     font-size: 18px;
     color: #9b9b9b;
 }
 
-.testimonialstext{
+.testimonialstext {
     background-color: #ffffff;
     font-family: 'Abel', sans-serif;
     height: 318px;
 }
-.testimonialstext p{
+
+.testimonialstext p {
     font-size: 16px;
     color: #000000;
 }
-.testimonialstext h1{
+
+.testimonialstext h1 {
     font-size: 14px;
     color: #4a4a4a;
 }
-.testimonialstext h2{
+
+.testimonialstext h2 {
     position: absolute;
     font-size: 14px;
     bottom: 40px;
     left: 30px;
     color: #4a4a4a;
-
 }
-.informacion{
+
+.informacion {
     font-family: 'Abel', sans-serif;
     padding-top: 104px;
     padding-bottom: 64px;
     width: 100%;
 }
-.informacion h1{
+
+.informacion h1 {
     color: #000000;
     font-size: 13px;
     margin-bottom: 15px;
 }
-.informacion h2,p{
+
+.informacion h2,
+p {
     color: #4a4a4a;
     font-size: 12px;
     margin-bottom: 9px;
 }
-.help{
-padding-bottom: 45px;
+
+.help {
+    padding-bottom: 45px;
 }
-.marcas{
+
+.marcas {
     position: relative;
     background-color: #ffffff;
 }
-.logoT{
+
+.logoT {
     padding-top: 44px;
 }
-.logos img{
+
+.logos img {
     padding-top: 40px;
     margin-right: 30px;
     padding-bottom: 40px;
 }
-.cajasdetexto{
+
+.cajasdetexto {
     padding-top: 40px;
 }
-.lineagrissup{
+
+.lineagrissup {
     position: absolute;
     border-top: 1px solid #e4e4e4;
     left: 0;
     width: 100%;
 }
-.lineagris{
+
+.lineagris {
     position: absolute;
     content: url(../Imagenes/lineagris.png);
     left: 0;
     width: 100%;
     top: 100px;
 }
-.copyright{
+
+.copyright {
     font-family: 'Abel', sans-serif;
     color: #333333;
     padding-top: 50px;
     padding-bottom: 47px;
 }
-.copyright h1{
+
+.copyright h1 {
     font-size: 12px;
 }
-.carta14inf:hover{
+
+.carta14inf:hover {
     background-color: #f8f8f8;
 }
-@media (min-width: 768px) and (max-width: 991.98px){
-    html, body{
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
     }
-    .card{
+    .card {
         background-color: #FFFFFF;
-        
     }
-    .inicio h1{
+    .inicio h1 {
         margin-top: 10px;
     }
-    .Barra img{
+    .Barra img {
         display: none;
     }
-    .line, .lineInf{
+    .line,
+    .lineInf {
         display: none;
     }
-    .imagen2{
+    .imagen2 {
         display: none;
     }
     .customers {
         font-size: 12px;
         padding-top: 20px;
     }
-    .testimonialscard{
+    .testimonialscard {
         background-color: #f8f8f8;
         font-size: small;
         margin-top: 20px;
+        align-items: center;
     }
-    .card-body{
+    .card-body {
         padding: 0%;
     }
-    .continfo{
+    .continfo {
         position: relative;
         padding-top: 50px;
         width: 100%;
         margin-bottom: 50px;
     }
-    .testimonialscard h1{
+    .testimonialscard h1 {
         font-size: 45px;
         color: #000000;
         margin-top: 20px;
     }
     .testimonialstext {
         height: 250px;
+        padding: 1em;
     }
-    .continfo{
+    .continfo {
         width: 100%;
         height: 1000px;
     }
-    .flechitaimg{
-        margin-top: 13% ;
-      }
-
+    .flechitaimg {
+        margin-top: 13%;
+    }
 }
-@media (min-width: 320px) and (max-width: 500px){
-    html, body{
+
+@media (min-width: 320px) and (max-width: 500px) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
     }
-    .Logo{
-        width: 60px;
-        margin-left: 38% ;
-        margin-top: 3%;
-    }
-    .imagenesequis{
+    .Logo {
         display: none;
     }
-    .card{
+    .imagenesequis {
+        display: none;
+    }
+    .card {
         align-items: center;
         display: inline-block;
     }
-    .cabecera{
+    .filtros {
+        width: 100%;
+    }
+    .lineasp {
+        width: 100%;
+    }
+    .cabecera {
         position: relative;
         padding-top: 4px;
-        
     }
-    .rectangulonaranja{
+    .cabecera p {
+        margin-left: .16em;
+    }
+    .rectangulonaranja {
         width: 38px;
     }
-    .Lupa{
+    .Lupa {
         width: 13px;
     }
-    .textosup{
+    .textosup {
         margin-top: 150px;
     }
-    .experience{
+    .experience {
         font-size: 35px;
         line-height: 38px;
     }
-    .Barra{
+    .Barra {
         margin-top: 30px;
     }
-    h5.textitem{
+    h5.textitem {
         margin-top: 20px;
     }
-    li.nav-item{
+    li.nav-item {
         margin-bottom: 5px;
         font-size: 17px;
     }
-    li img{
+    li img {
         width: 45%;
     }
+    .Imagenesgrandes {
+        height: 100%;
+        padding-bottom: 1.5em;
+    }
     .popular {
-        padding-top: 10px;
+        padding-top: 30px;
     }
     .customers {
         font-size: 12px;
         padding-top: 20px;
     }
-    .item1{
+    .item1 {
         display: none;
     }
-    .line, .lineInf{
+    .line,
+    .lineInf {
         display: none;
     }
-    .imagen2{
-        display: none ;
+    .imagen2 {
+        display: none;
     }
-    
-    .cuadro{
+    .cuadro {
         width: 200px;
     }
-    .nav-link{
+    .nav-link {
         font-size: .6em;
     }
-    .flechitaimg{
+    .flechitaimg {
         display: none;
     }
-    .cabecera h5{
-      margin-top: 57% ;
-      font-size: 12px ;
+    .cabecera h5 {
+        margin-top: 57%;
+        font-size: 12px;
     }
-    .cabecera h3{
-      margin-top: .08% ;
-      font-size: 9px ;
-      line-height: 10px ;
+    .cabecera h3 {
+        margin-top: .08%;
+        font-size: 9px;
+        line-height: 10px;
     }
-    .carta2{
-        margin-top: 0% ;
+    .carta2 {
+        margin-top: 0%;
     }
-    .carta4{
-        margin-bottom: 0% ;
+    .carta4 {
+        margin-bottom: 0%;
         margin-top: 20px;
     }
-    .carta5{
+    .carta5 {
         margin-top: 20px;
     }
 }
-@media (min-width: 1024px) and (max-width: 1200px){
-    html, body{
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
     }
@@ -506,22 +598,22 @@ padding-bottom: 45px;
         font-size: 12px;
         padding-top: 20px;
     }
-    .contenedor{
-        padding-left: 0% ;
+    .contenedor {
+        padding-left: 0%;
     }
-    .imagenesequis{
+    .imagenesequis {
         display: none;
     }
-
 }
-@media (min-width: 414px) and (max-width: 450px){
-    .rectangulonaranja{
+
+@media (min-width: 414px) and (max-width: 450px) {
+    .rectangulonaranja {
         width: 38px;
     }
-    .Lupa{
+    .Lupa {
         width: 12px;
     }
-    .nav-link{
+    .nav-link {
         font-size: 1em;
     }
 }
