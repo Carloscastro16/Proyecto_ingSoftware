@@ -578,7 +578,7 @@ p {
         display: none;
     }
     .cabecera h5 {
-        margin-top: 57%;
+        margin-top: 12em;
         font-size: 12px;
     }
     .cabecera h3 {
@@ -628,5 +628,12 @@ p {
     }
     .nav-link {
         font-size: 1em;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+    .cabecera h5 {
+        margin-top: 20em;
+        font-size: 12px;
     }
 }

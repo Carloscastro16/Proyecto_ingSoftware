@@ -236,6 +236,14 @@ body {
     margin-top: 160px;
 }
 
+.filtros {
+    font-family: 'Abel', sans-serif;
+    font-size: 13px;
+    color: black;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
 .filtros h2 {
     font-family: 'Abel', sans-serif;
     font-size: 13px;
@@ -248,10 +256,11 @@ body {
 .filtro {
     border: none;
     margin-bottom: 20px;
+    background-color: #f8f8f8;
+    width: 100%;
 }
 
 .card {
-    background-color: white;
     border: none;
 }
 
@@ -304,12 +313,6 @@ body {
 .carta3,
 .carta4 {
     margin-bottom: 45px;
-}
-
-.filtros {
-    font-family: 'Abel', sans-serif;
-    font-size: 13px;
-    color: black;
 }
 
 .btn-info {
