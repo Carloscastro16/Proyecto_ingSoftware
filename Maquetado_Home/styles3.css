@@ -462,6 +462,9 @@ p {
     .testimonialscard {
         align-items: center;
     }
+    .testimonialstext {
+        margin-bottom: 20px;
+    }
     .fondocard {
         width: 500px;
     }
