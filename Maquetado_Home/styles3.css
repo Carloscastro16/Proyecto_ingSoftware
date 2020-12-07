@@ -1,3 +1,7 @@
+html, body{
+    width: 100%;
+    overflow-x: none;
+}
 .inicio {
     position: relative;
     background: url(../Imagenes/carretera.png);
@@ -470,6 +474,10 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
+    html, body{
+        width: 100%;
+        overflow-x: none;
+    }
     .imagenesgrandes img {
         width: 100%;
         margin-bottom: 20px;
