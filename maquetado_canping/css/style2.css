@@ -137,7 +137,7 @@ body {
     position: relative;
     padding-top: 100px;
     padding-bottom: 50px;
-    margin-bottom: 6.25em;
+    margin-bottom: 4.375em;
 }
 
 .parte_3 h2 {
@@ -181,7 +181,9 @@ body {
     margin-bottom: 15px;
     margin-left: 5px;
 }
-
+.carta5, .carta6, .carta7{
+    margin-top: 30px;
+}
 .carta8,
 .carta9,
 .carta10 {
