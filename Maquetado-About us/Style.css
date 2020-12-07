@@ -1,3 +1,6 @@
+:root{
+    font-size: 16px;
+}
 html, body{
     width: 100%;
     overflow-x: hidden;
@@ -20,13 +23,29 @@ a:link, a:visited, a:active {
     margin: 40px;
     float: left;
 }
-
-.nav-link {
+.flecha{
+    display: flex;
+}
+.navbar {
     font-family: 'Abel', sans-serif;
     color: #FFFFFF;
-    margin-top: 40px;
+    margin-top: 2em;
+    display: flex;
+    font-size: 1em;
 }
+.navbar-nav{
+    display: flex;
 
+}
+.nav-link{
+    color: #ffffff;
+}
+.nav-link:hover{
+    color: #ff5200;
+}
+.flecha{
+    display: none;
+}
 .titulo h1 {
     font-family: 'Abel', sans-serif;
     color: #FFFFFF;
@@ -273,9 +292,10 @@ p {
         width: 100%;
         overflow-x: hidden;
     }
-    .logo{
+    .logo img{
         width: 60px;
-        margin-left: 26% ;
+        margin-left: 4em ;
+        margin-top: 2em;
     }
     .imagen-1 img{
         width: 100%;
@@ -283,6 +303,7 @@ p {
     .imagenesequis{
         display: none;
     }
+    
     .nav-link{
         font-size: .5em;
     }
