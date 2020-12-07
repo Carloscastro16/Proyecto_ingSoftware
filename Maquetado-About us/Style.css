@@ -1,7 +1,9 @@
-:root{
+:root {
     font-size: 16px;
 }
-html, body{
+
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
@@ -29,9 +31,11 @@ a:active {
     margin: 40px;
     float: left;
 }
-.flecha{
+
+.flecha {
     display: flex;
 }
+
 .navbar {
     font-family: 'Abel', sans-serif;
     color: #FFFFFF;
@@ -39,19 +43,23 @@ a:active {
     display: flex;
     font-size: 1em;
 }
-.navbar-nav{
-    display: flex;
 
+.navbar-nav {
+    display: flex;
 }
-.nav-link{
+
+.nav-link {
     color: #ffffff;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #ff5200;
 }
-.flecha{
+
+.flecha {
     display: none;
 }
+
 .titulo h1 {
     font-family: 'Abel', sans-serif;
     color: #FFFFFF;
@@ -303,9 +311,9 @@ p {
         width: 100%;
         overflow-x: hidden;
     }
-    .logo img{
+    .logo img {
         width: 60px;
-        margin-left: 4em ;
+        margin-left: 4em;
         margin-top: 2em;
     }
     .imagen-1 img {
@@ -314,26 +322,29 @@ p {
     .imagenesequis {
         display: none;
     }
-    
-    .nav-link{
-        font-size: .5em;
+    .nav-link {
+        padding: .5em;
+        font-size: .781em;
         margin-top: 1em;
+    }
+    .navbar {
+        padding-left: .2em;
     }
     .buscador {
         width: 12%;
     }
-    .buscador1 {
-        width: 3.5em;
+    .buscador1 img {
+        width: 3em;
     }
-    .buscador2 {
-        width: .9em;
+    .buscador2 img {
+        width: .7em;
     }
     .titulo h1 {
         font-size: 50px;
         margin-top: 3.4em;
     }
     .informacionabout {
-        margin-top: 105%;
+        margin-top: 98%;
     }
     .informacionabout h3 {
         position: absolute;
@@ -363,6 +374,9 @@ p {
     .persona-1 {
         width: 100%;
     }
+    .info {
+        margin-top: 2em;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -387,10 +401,10 @@ p {
     .buscador {
         width: 12%;
     }
-    .buscador1 {
+    .buscador1 img {
         width: 3.5em;
     }
-    .buscador2 {
+    .buscador2 img {
         width: .9em;
     }
     .titulo h1 {
@@ -402,7 +416,7 @@ p {
         width: 100%;
     }
     .informacionabout {
-        margin-top: 40%;
+        margin-top: 34%;
     }
     .informacionabout h3 {
         position: absolute;
@@ -448,6 +462,6 @@ p {
         padding-top: 20px;
     }
     .contenedor {
-        padding-left: 0% !important;
+        padding-left: 0%;
     }
 }

@@ -1,6 +1,7 @@
-:root{
+:root {
     font-size: 16px;
 }
+
 .testimonialscard {
     width: 100px;
 }
@@ -73,9 +74,16 @@ body {
 .flechitaimg {
     margin-top: 65px;
 }
-.tubito{
+
+.tubito {
     margin-bottom: .9em;
+    width: 100%;
 }
+
+.linepunt {
+    width: 100%;
+}
+
 .lineInf {
     content: url(../imagenes/RectangleInf.png);
     position: absolute;
@@ -129,6 +137,7 @@ body {
     position: relative;
     padding-top: 100px;
     padding-bottom: 50px;
+    margin-bottom: 6.25em;
 }
 
 .parte_3 h2 {
@@ -366,7 +375,9 @@ body {
     background-color: #f8f8f8;
     height: 100%;
     padding-top: 100px;
-    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 3.125em;
 }
 
 .testimonialscard {
@@ -396,7 +407,6 @@ body {
     background-color: #ffffff;
     font-family: 'Abel', sans-serif;
     height: 318px;
-    margin-bottom: 10px;
 }
 
 .testimonialstext p {
@@ -421,6 +431,7 @@ body {
     font-family: 'Abel', sans-serif;
     padding-top: 104px;
     padding-bottom: 64px;
+    width: 100%;
 }
 
 .informacion h1 {
@@ -466,9 +477,9 @@ p {
     width: 100%;
 }
 
-.lineagrisinf {
+.lineagris {
     position: absolute;
-    border-top: 1px solid #e4e4e4;
+    content: url(../Imagenes/lineagris.png);
     left: 0;
     width: 100%;
     top: 100px;
@@ -488,105 +499,113 @@ p {
 .carta14inf:hover {
     background-color: #f8f8f8;
 }
+
 @media (min-width: 320px) and (max-width: 500px) {
     html,
     body {
         width: 100%;
         overflow-x: hidden;
     }
-    .Logo{
+    .Logo {
         display: none;
     }
-    .parte_3 img{
+    .carta2 {
+        margin-top: 0em;
+    }
+    .parte_3 img {
         width: 100%;
     }
-    .imagenesequis{
+    .imagenesequis {
         display: none;
     }
-    .testimonialscard {
-        align-items: center;
-    }
-    .nav-item{
+    .nav-item {
         font-size: .9em;
     }
-    .nav-link{
+    .nav-link {
         padding: .7em;
     }
-    .imgrec img{
+    .imgrec img {
         width: 3em;
     }
-    .imgshape img{
+    .imgshape img {
         width: .8em;
     }
-    .textosup{
+    .textosup {
         margin-left: 10px;
     }
-    .textosup h1{
+    .textosup h1 {
         font-size: 3em;
         line-height: 1.8em;
     }
-    .flechitaimg{
+    .flechitaimg {
         display: none;
     }
-    .parte_1 h3{
+    .parte_1 h3 {
         margin-top: .1em;
     }
-    .parte_1 h5{
+    .parte_1 h5 {
         margin-top: 1em;
         margin-bottom: 2.8em;
     }
-    .parte_5 h1{
+    .parte_5 h1 {
         margin-top: 17.5em;
     }
+    .info {
+        margin-top: 2em;
+    }
+    .testimonialstext {
+        margin-bottom: 1em;
+    }
 }
-@media (min-width: 375px) and (max-width: 414px){
-    .imagenesequis{
+
+@media (min-width: 375px) and (max-width: 414px) {
+    .imagenesequis {
         display: none;
     }
-    .parte_1 h5{
+    .parte_1 h5 {
         margin-top: 7.5em;
         margin-bottom: 3em;
     }
-    .parte_1 h3{
+    .parte_1 h3 {
         margin-top: 0em;
     }
-    .parte_3 img{
+    .parte_3 img {
         width: 100%;
     }
-
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     html,
     body {
         width: 100%;
         overflow-x: hidden;
     }
-    .parte_1 h5{
+    .parte_1 h5 {
         margin-top: 4em;
     }
-    .parte_3 img{
+    .parte_3 img {
         width: 100%;
     }
-    .testimonialscard{
+    .testimonialscard {
         align-items: center;
     }
-    .imagenblanca{
+    .imagenblanca {
         width: 18em;
         height: 11em;
     }
-    .parte_5 h1{
+    .parte_5 h1 {
         margin-bottom: 0%;
     }
-    .btn-info{
+    .btn-info {
         margin: .25em;
     }
-    .popular{
+    .popular {
         padding-top: 50px;
     }
-    .acti{
+    .acti {
         margin-top: 4em;
     }
-    .imagenchicas{
+    .imagenchicas {
         width: 150%;
     }
 }
@@ -598,20 +617,19 @@ p {
         overflow-x: hidden;
     }
     .contenedor {
-        padding-left: 0% ;
+        padding-left: 0%;
     }
     .testimonialscard {
         align-items: center;
     }
-    .parte_3 img{
+    .parte_3 img {
         width: 100%;
     }
-    .imagenblanca{
+    .imagenblanca {
         width: 24em;
         height: 11em;
     }
-    .offset-lg-6{
+    .offset-lg-6 {
         margin-left: 38%;
     }
 }
-    

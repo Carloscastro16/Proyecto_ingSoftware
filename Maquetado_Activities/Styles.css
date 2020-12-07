@@ -69,9 +69,16 @@ li {
 .flechitaimg {
     margin-top: 15%;
 }
-.tubito{
+
+.tubito {
     margin-bottom: .9em;
+    width: 100%;
 }
+
+.lineasp {
+    width: 100%;
+}
+
 .cabecera h2 {
     font-family: 'Abel', sans-serif;
     font-size: 14px;
@@ -191,7 +198,7 @@ a:hover {
 
 .Imagenesgrandes {
     width: 100%;
-    height: 873px;
+    height: 100%;
     background-color: #f8f8f8;
     font-family: 'Abel', sans-serif;
 }
@@ -211,6 +218,7 @@ a:hover {
 
 .ovalos {
     margin-top: 40px;
+    margin-bottom: 3em;
 }
 
 .ovalos img {
@@ -444,8 +452,8 @@ p {
     .lineInf {
         display: none;
     }
-    .imagen2 {
-        display: none;
+    .imagen2 img {
+        width: 32.1em;
     }
     .customers {
         font-size: 12px;
@@ -534,7 +542,10 @@ p {
     }
     li.nav-item {
         margin-bottom: 5px;
-        font-size: 17px;
+    }
+    .nav-link {
+        font-size: .8em;
+        padding: .5em;
     }
     li img {
         width: 45%;
@@ -563,9 +574,6 @@ p {
     .cuadro {
         width: 200px;
     }
-    .nav-link {
-        font-size: .6em;
-    }
     .flechitaimg {
         display: none;
     }
@@ -587,6 +595,9 @@ p {
     }
     .carta5 {
         margin-top: 20px;
+    }
+    .info {
+        margin-top: 2em;
     }
 }
 

@@ -1,7 +1,9 @@
-html, body{
+html,
+body {
     width: 100%;
     overflow-x: hidden;
 }
+
 .inicio {
     position: relative;
     background: url(../Imagenes/carretera.png);
@@ -459,14 +461,21 @@ p {
     .rocky img {
         margin-top: 10px;
     }
+    .mountains img {
+        width: 100%;
+    }
     .testimonialscard {
         align-items: center;
     }
     .testimonialstext {
         margin-bottom: 20px;
     }
+    .fondocard2,
+    .fondocard3,
+    .fondocard4,
+    .fondocard5,
     .fondocard {
-        width: 500px;
+        width: 100%;
     }
     .fondo4 {
         margin-top: 20px;
@@ -477,7 +486,8 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
-    html, body{
+    html,
+    body {
         width: 100%;
         overflow-x: none;
     }
@@ -564,7 +574,7 @@ p {
     .testimonialstext {
         margin-bottom: 20px;
     }
-    .info{
+    .info {
         margin-top: 2em;
     }
 }
