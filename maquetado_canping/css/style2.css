@@ -73,7 +73,9 @@ body {
 .flechitaimg {
     margin-top: 65px;
 }
-
+.tubito{
+    margin-bottom: .9em;
+}
 .lineInf {
     content: url(../imagenes/RectangleInf.png);
     position: absolute;
